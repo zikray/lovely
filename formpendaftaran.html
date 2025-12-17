@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULIR PENDAFTARAN SEMINAR</title>
+</head>
+<body bgcolor="#d6eaf8" text="black">
+
+  <table width="60%" align="center" bgcolor="white" border="0" cellpadding="15" cellspacing="0">
+    <tr>
+      <td align="center" colspan="2">
+        <font face="Arial" size="6" color="#1f3c88"><b>FORMULIR PENDAFTARAN SEMINAR</b></font><br>
+        <hr color="#1f3c88" width="80%">
+      </td>
+    </tr>
+
+    <form method="post">
+      <tr>
+        <td width="40%">NIM</td>
+        <td><input type="number" name="nim" size="40" placeholder="Masukkan NIM anda" required></td>
+      </tr>
+
+      <tr>
+        <td>Nama</td>
+        <td><input type="text" name="nama" size="40" placeholder="Masukkan nama anda" required></td>
+      </tr>
+
+      <tr>
+        <td>Password</td>
+        <td><input type="password" name="password" size="40" placeholder="Masukkan password anda" required></td>
+      </tr>
+
+      <tr>
+        <td>No Telepon</td>
+        <td><input type="number" name="telepon" size="40" placeholder="Masukkan nomor telepon anda" required></td>
+      </tr>
+
+      <tr>
+        <td>Alamat</td>
+        <td><textarea cols="45" rows="3" name="alamat" placeholder="Masukkan alamat anda"></textarea></td>
+      </tr>
+
+      <tr>
+        <td>Kota</td>
+        <td>
+          <select name="kota">
+            <option>-- Pilih Kota --</option>
+            <option>Pandeglang</option>
+            <option>Tangerang</option>
+            <option>Surabaya</option>
+            <option>Jakarta</option>
+            <option>Bandung</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>
+          <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+          <input type="radio" name="jk" value="Perempuan"> Perempuan
+        </td>
+      </tr>
+
+      <tr>
+        <td>Tanggal Lahir</td>
+        <td><input type="date" name="tgl"></td>
+      </tr>
+
+      <tr>
+        <td>Status</td>
+        <td>
+          <input type="radio" name="status" value="Mahasiswa"> Mahasiswa
+          <input type="radio" name="status" value="Belum Kawin"> Belum Kawin
+          <input type="radio" name="status" value="Sudah Kawin"> Sudah Kawin
+        </td>
+      </tr>
+
+ <tr>
+        <td>Agama</td>
+        <td>
+          <select name="Agama">
+            <option>-- Pilih Agama --</option>
+            <option>Islam</option>
+            <option>Katolik</option>
+            <option>Hindu</option>
+            <option>Konghucu</option>
+            <option>Budha</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Jurusan</td>
+        <td>
+          <select name="jurusan" size="4">
+            <option>Sistem Informasi</option>
+            <option>Arsitektur</option>
+            <option>PGSD</option>
+            <option>Sastra Inggris</option>
+            <option>Kedokteran</option>
+            <option>Hukum</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Hobi</td>
+        <td>
+          <input type="checkbox" name="hobi" value="Mancing"> Mancing
+          <input type="checkbox" name="hobi" value="Tidur"> Tidur
+          <input type="checkbox" name="hobi" value="Mengaji"> Mengaji
+          <input type="checkbox" name="hobi" value="Baca Buku"> Baca Buku
+        </td>
+      </tr>
+
+      <tr>
+        <td>Upload Dokumen</td>
+        <td><input type="file" name="file"></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <hr color="#1f3c88" width="70%">
+          <input type="submit" value="SIMPAN DATA">
+          <input type="reset" value="HAPUS">
+          <hr color="#1f3c88" width="70%">
+        </td>
+      </tr>
+    </form>
+
+    <tr>
+      <td colspan="2" align="center">
+        <font face="Arial" size="2" color="gray">© 2025 Seminar NATISIA | Semua hak dilindungi</font>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
